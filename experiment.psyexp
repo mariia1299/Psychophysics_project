@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2021.2.3">
+  <Settings>
+    <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
+    <Param name="Audio lib" updates="None" val="use prefs" valType="str"/>
+    <Param name="Completed URL" updates="None" val="" valType="str"/>
+    <Param name="Data file delimiter" updates="None" val="auto" valType="str"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Experiment info" updates="None" val="{'participant':'', 'session':'001'}" valType="code"/>
+    <Param name="Force stereo" updates="None" val="True" valType="bool"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="HTML path" updates="None" val="" valType="str"/>
+    <Param name="Incomplete URL" updates="None" val="" valType="str"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Resources" updates="None" val="[]" valType="list"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Save hdf5 file" updates="None" val="False" valType="bool"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="height" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="(1024, 768)" valType="list"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="color" updates="None" val="$[0,0,0]" valType="color"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="elAddress" updates="None" val="100.1.1.1" valType="str"/>
+    <Param name="elDataFiltering" updates="None" val="FILTER_LEVEL_2" valType="str"/>
+    <Param name="elLiveFiltering" updates="None" val="FILTER_LEVEL_OFF" valType="str"/>
+    <Param name="elModel" updates="None" val="EYELINK 1000 DESKTOP" valType="str"/>
+    <Param name="elPupilAlgorithm" updates="None" val="ELLIPSE_FIT" valType="str"/>
+    <Param name="elPupilMeasure" updates="None" val="PUPIL_AREA" valType="str"/>
+    <Param name="elSampleRate" updates="None" val="1000" valType="num"/>
+    <Param name="elSimMode" updates="None" val="False" valType="bool"/>
+    <Param name="elTrackEyes" updates="None" val="RIGHT_EYE" valType="str"/>
+    <Param name="elTrackingMode" updates="None" val="PUPIL_CR_TRACKING" valType="str"/>
+    <Param name="expName" updates="None" val="experiment" valType="str"/>
+    <Param name="exportHTML" updates="None" val="on Sync" valType="str"/>
+    <Param name="eyetracker" updates="None" val="None" valType="str"/>
+    <Param name="gpAddress" updates="None" val="127.0.0.1" valType="str"/>
+    <Param name="gpPort" updates="None" val="4242" valType="num"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+    <Param name="mgBlink" updates="None" val="MIDDLE_BUTTON" valType="list"/>
+    <Param name="mgMove" updates="None" val="CONTINUOUS" valType="str"/>
+    <Param name="mgSaccade" updates="None" val="0.5" valType="num"/>
+    <Param name="tbLicenseFile" updates="None" val="" valType="str"/>
+    <Param name="tbModel" updates="None" val="" valType="str"/>
+    <Param name="tbSampleRate" updates="None" val="60" valType="num"/>
+    <Param name="tbSerialNo" updates="None" val="" valType="str"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <TextComponent name="text_2">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="name" updates="None" val="text_2" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.7" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$Word" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="1" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.7" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="inst">
+      <TextComponent name="text_3">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="num"/>
+        <Param name="name" updates="None" val="text_3" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="11.0" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="In this task, you will be presented English words one by one.&amp;#10;If the word HAS a mistake, press 'SPACE'.&amp;#10;If the word DOES NOT HAS a mistake, do nothing.&amp;#10;&amp;#10;Respond within 3 seconds." valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="inst"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'condition': 'short', 'trial': 'go', 'Word': 'accent'}, {'condition': 'short', 'trial': 'go', 'Word': 'fruit'}, {'condition': 'short', 'trial': 'go', 'Word': 'memory'}, {'condition': 'short', 'trial': 'go', 'Word': 'quake'}, {'condition': 'short', 'trial': 'go', 'Word': 'decay'}, {'condition': 'short', 'trial': 'go', 'Word': 'drug'}, {'condition': 'short', 'trial': 'go', 'Word': 'parent'}, {'condition': 'short', 'trial': 'go', 'Word': 'bottom'}, {'condition': 'short', 'trial': 'go', 'Word': 'scale'}, {'condition': 'short', 'trial': 'go', 'Word': 'beach'}, {'condition': 'short', 'trial': 'go', 'Word': 'sister'}, {'condition': 'short', 'trial': 'go', 'Word': 'elf'}, {'condition': 'short', 'trial': 'go', 'Word': 'napkin'}, {'condition': 'short', 'trial': 'go', 'Word': 'review'}, {'condition': 'short', 'trial': 'go', 'Word': 'peak'}, {'condition': 'short', 'trial': 'go', 'Word': 'horror'}, {'condition': 'short', 'trial': 'go', 'Word': 'dentist'}, {'condition': 'short', 'trial': 'go', 'Word': 'clinic'}, {'condition': 'short', 'trial': 'go', 'Word': 'touch'}, {'condition': 'short', 'trial': 'go', 'Word': 'donkey'}, {'condition': 'short', 'trial': 'go', 'Word': 'card'}, {'condition': 'short', 'trial': 'go', 'Word': 'crown'}, {'condition': 'short', 'trial': 'go', 'Word': 'fight'}, {'condition': 'short', 'trial': 'go', 'Word': 'land'}, {'condition': 'short', 'trial': 'go', 'Word': 'pilgrim'}, {'condition': 'short', 'trial': 'no-go', 'Word': 'affiar'}, {'condition': 'short', 'trial': 'no-go', 'Word': 'beleif'}, {'condition': 'short', 'trial': 'no-go', 'Word': 'obiect'}, {'condition': 'short', 'trial': 'no-go', 'Word': 'noiton'}, {'condition': 'short', 'trial': 'no-go', 'Word': 'paerl'}, {'condition': 'short', 'trial': 'no-go', 'Word': 'blause'}, {'condition': 'short', 'trial': 'no-go', 'Word': 'yahct'}, {'condition': 'short', 'trial': 'no-go', 'Word': 'sesnor'}, {'condition': 'short', 'trial': 'no-go', 'Word': 'dagner'}, {'condition': 'short', 'trial': 'no-go', 'Word': 'expret'}, {'condition': 'short', 'trial': 'no-go', 'Word': 'widnow'}, {'condition': 'short', 'trial': 'no-go', 'Word': 'legnth'}, {'condition': 'short', 'trial': 'no-go', 'Word': 'jaens'}, {'condition': 'short', 'trial': 'no-go', 'Word': 'heant'}, {'condition': 'short', 'trial': 'no-go', 'Word': 'oirgin'}, {'condition': 'short', 'trial': 'no-go', 'Word': 'mililon'}, {'condition': 'short', 'trial': 'no-go', 'Word': 'ouftit'}, {'condition': 'short', 'trial': 'no-go', 'Word': 'rythm'}, {'condition': 'short', 'trial': 'no-go', 'Word': 'muoth'}, {'condition': 'short', 'trial': 'no-go', 'Word': 'imapct'}, {'condition': 'short', 'trial': 'no-go', 'Word': 'wolrd'}, {'condition': 'short', 'trial': 'no-go', 'Word': 'abverb'}, {'condition': 'short', 'trial': 'no-go', 'Word': 'cemal'}, {'condition': 'short', 'trial': 'no-go', 'Word': 'hasmter'}, {'condition': 'short', 'trial': 'no-go', 'Word': 'kindey'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="short.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="trials"/>
+    <LoopInitiator loopType="TrialHandler" name="trials_2">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'condition': 'long', 'trial': 'go', 'Word': 'creativity'}, {'condition': 'long', 'trial': 'go', 'Word': 'scholarship'}, {'condition': 'long', 'trial': 'go', 'Word': 'accommodation'}, {'condition': 'long', 'trial': 'go', 'Word': 'hurricane'}, {'condition': 'long', 'trial': 'go', 'Word': 'background'}, {'condition': 'long', 'trial': 'go', 'Word': 'stereotype'}, {'condition': 'long', 'trial': 'go', 'Word': 'structure'}, {'condition': 'long', 'trial': 'go', 'Word': 'vegetable'}, {'condition': 'long', 'trial': 'go', 'Word': 'university'}, {'condition': 'long', 'trial': 'go', 'Word': 'government'}, {'condition': 'long', 'trial': 'go', 'Word': 'temperature'}, {'condition': 'long', 'trial': 'go', 'Word': 'president'}, {'condition': 'long', 'trial': 'go', 'Word': 'narrative'}, {'condition': 'long', 'trial': 'go', 'Word': 'commentary'}, {'condition': 'long', 'trial': 'go', 'Word': 'afternoon'}, {'condition': 'long', 'trial': 'go', 'Word': 'championship'}, {'condition': 'long', 'trial': 'go', 'Word': 'madication'}, {'condition': 'long', 'trial': 'go', 'Word': 'experience'}, {'condition': 'long', 'trial': 'go', 'Word': 'passenger'}, {'condition': 'long', 'trial': 'go', 'Word': 'addiction'}, {'condition': 'long', 'trial': 'go', 'Word': 'formation'}, {'condition': 'long', 'trial': 'go', 'Word': 'professor'}, {'condition': 'long', 'trial': 'go', 'Word': 'statement'}, {'condition': 'long', 'trial': 'go', 'Word': 'tournament'}, {'condition': 'long', 'trial': 'go', 'Word': 'paragraph'}, {'condition': 'long', 'trial': 'no-go', 'Word': 'advetnure'}, {'condition': 'long', 'trial': 'no-go', 'Word': 'frmaework'}, {'condition': 'long', 'trial': 'no-go', 'Word': 'precpetion'}, {'condition': 'long', 'trial': 'no-go', 'Word': 'documneatry'}, {'condition': 'long', 'trial': 'no-go', 'Word': 'labarotary'}, {'condition': 'long', 'trial': 'no-go', 'Word': 'auidence'}, {'condition': 'long', 'trial': 'no-go', 'Word': 'govrnement'}, {'condition': 'long', 'trial': 'no-go', 'Word': 'alcholic'}, {'condition': 'long', 'trial': 'no-go', 'Word': 'ciragette'}, {'condition': 'long', 'trial': 'no-go', 'Word': 'breafakst'}, {'condition': 'long', 'trial': 'no-go', 'Word': 'persolanity'}, {'condition': 'long', 'trial': 'no-go', 'Word': 'supremakret'}, {'condition': 'long', 'trial': 'no-go', 'Word': 'gilrfreind'}, {'condition': 'long', 'trial': 'no-go', 'Word': 'subtsanse'}, {'condition': 'long', 'trial': 'no-go', 'Word': 'terrirost'}, {'condition': 'long', 'trial': 'no-go', 'Word': 'imimgration'}, {'condition': 'long', 'trial': 'no-go', 'Word': 'beefstaek'}, {'condition': 'long', 'trial': 'no-go', 'Word': 'perfomarnce'}, {'condition': 'long', 'trial': 'no-go', 'Word': 'cerfiticate'}, {'condition': 'long', 'trial': 'no-go', 'Word': 'ecletricity'}, {'condition': 'long', 'trial': 'no-go', 'Word': 'photgoaph'}, {'condition': 'long', 'trial': 'no-go', 'Word': 'trasntcipt'}, {'condition': 'long', 'trial': 'no-go', 'Word': 'derpession'}, {'condition': 'long', 'trial': 'no-go', 'Word': 'ochrestra'}, {'condition': 'long', 'trial': 'no-go', 'Word': 'depatmrent'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="long.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials_2" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="trials_2"/>
+  </Flow>
+</PsychoPy2experiment>
